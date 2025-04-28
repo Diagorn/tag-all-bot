@@ -4,7 +4,7 @@ import os
 from telegram import Update, Bot
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
-TOKEN = os.environ.get("$STRELTSY_BOT_TOKEN")
+TOKEN = os.environ.get("STRELTSY_BOT_TOKEN")
 print(TOKEN)
 
 voice_reactions = [
